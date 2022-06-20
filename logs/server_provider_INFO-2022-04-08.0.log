@@ -1,0 +1,8 @@
+14:39:42.365 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 9944 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+14:39:42.398 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+14:39:42.399 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+14:43:09.855 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 11184 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+14:43:09.871 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+14:43:09.872 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+14:43:12.283 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 3.063 seconds (JVM running for 3.908)
+14:44:02.375 server_provider [http-nio-5002-exec-2] INFO  c.l.p.p.service.DubboServiceImp - 提供服务============》查询:123333

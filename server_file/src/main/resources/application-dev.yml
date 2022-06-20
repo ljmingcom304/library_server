@@ -1,0 +1,21 @@
+###################  server  ###################
+server:
+  port: 5004
+spring:
+  upload:
+    basePhysicalPath: /opt/resource/media
+    resourceVisitDomain: http://res.test.mmednet.com
+    resourceVisitUrlPrefix: /static/media
+    xpdfPath4Win: C:/xpdf-chinese-simplified
+    xpdfPath4Linux: /opt/xpdf-chinese-simplified
+    openOfficeHome4Win: C:/Program Files (x86)/OpenOffice 4
+    openOfficeHome4Linux: /opt/openoffice4
+    pdf2swf4Win: C:/fileview/SWFTools/pdf2swf
+    pdf2swf4Linux: /usr/swftools/bin/pdf2swf
+  minio:
+    endpoint: http://10.1.1.19:9000
+    accessKey: admin
+    secretKey: admin123
+
+
+

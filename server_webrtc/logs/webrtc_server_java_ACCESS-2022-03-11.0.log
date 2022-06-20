@@ -1,0 +1,47 @@
+15:15:21.551 webrtc_server_java [main] INFO  DemoApplication - Starting DemoApplication on XTZJ-20220307FM with PID 48044 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:15:21.557 webrtc_server_java [main] DEBUG DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:15:21.558 webrtc_server_java [main] INFO  DemoApplication - The following profiles are active: dev
+15:15:22.755 webrtc_server_java [main] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:15:23.062 webrtc_server_java [main] INFO  DemoApplication - Started DemoApplication in 2.27 seconds (JVM running for 2.666)
+15:16:58.700 webrtc_server_java [main] INFO  DemoApplication - Starting DemoApplication on XTZJ-20220307FM with PID 45988 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:16:58.702 webrtc_server_java [main] DEBUG DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:16:58.703 webrtc_server_java [main] INFO  DemoApplication - The following profiles are active: dev
+15:16:59.960 webrtc_server_java [main] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:17:00.271 webrtc_server_java [main] INFO  DemoApplication - Started DemoApplication in 2.019 seconds (JVM running for 2.43)
+15:28:09.739 webrtc_server_java [main] INFO  DemoApplication - Starting DemoApplication on XTZJ-20220307FM with PID 30512 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:28:09.760 webrtc_server_java [main] DEBUG DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:28:09.761 webrtc_server_java [main] INFO  DemoApplication - The following profiles are active: dev
+15:28:11.091 webrtc_server_java [main] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:28:11.390 webrtc_server_java [main] INFO  DemoApplication - Started DemoApplication in 2.137 seconds (JVM running for 2.552)
+15:31:17.590 webrtc_server_java [main] INFO  DemoApplication - Starting DemoApplication on XTZJ-20220307FM with PID 47300 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:31:17.593 webrtc_server_java [main] DEBUG DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:31:17.593 webrtc_server_java [main] INFO  DemoApplication - The following profiles are active: dev
+15:31:18.777 webrtc_server_java [main] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:31:19.071 webrtc_server_java [main] INFO  DemoApplication - Started DemoApplication in 1.961 seconds (JVM running for 2.339)
+15:31:43.031 webrtc_server_java [main] INFO  DemoApplication - Starting DemoApplication on XTZJ-20220307FM with PID 44148 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:31:43.033 webrtc_server_java [main] DEBUG DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:31:43.034 webrtc_server_java [main] INFO  DemoApplication - The following profiles are active: dev
+15:31:44.199 webrtc_server_java [main] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:31:44.502 webrtc_server_java [main] INFO  DemoApplication - Started DemoApplication in 1.955 seconds (JVM running for 2.387)
+15:57:48.154 webrtc_server_java [main] INFO  DemoApplication - Starting DemoApplication on XTZJ-20220307FM with PID 44848 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:57:48.157 webrtc_server_java [main] DEBUG DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:57:48.157 webrtc_server_java [main] INFO  DemoApplication - The following profiles are active: dev
+15:57:49.542 webrtc_server_java [main] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+16:03:12.803 webrtc_server_java [main] INFO  DemoApplication - Starting DemoApplication on XTZJ-20220307FM with PID 44764 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+16:03:12.823 webrtc_server_java [main] DEBUG DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+16:03:12.823 webrtc_server_java [main] INFO  DemoApplication - The following profiles are active: dev
+16:03:14.113 webrtc_server_java [main] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+16:05:37.031 webrtc_server_java [main] INFO  DemoApplication - Starting DemoApplication on XTZJ-20220307FM with PID 47832 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+16:05:37.034 webrtc_server_java [main] DEBUG DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+16:05:37.041 webrtc_server_java [main] INFO  DemoApplication - The following profiles are active: dev
+16:05:38.245 webrtc_server_java [main] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+16:08:06.496 webrtc_server_java [main] INFO  DemoApplication - Starting DemoApplication on XTZJ-20220307FM with PID 46112 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+16:08:06.498 webrtc_server_java [main] DEBUG DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+16:08:06.498 webrtc_server_java [main] INFO  DemoApplication - The following profiles are active: dev
+16:08:07.629 webrtc_server_java [main] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+16:09:00.872 webrtc_server_java [main] INFO  DemoApplication - Starting DemoApplication on XTZJ-20220307FM with PID 45768 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+16:09:00.894 webrtc_server_java [main] DEBUG DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+16:09:00.895 webrtc_server_java [main] INFO  DemoApplication - The following profiles are active: dev
+16:09:02.010 webrtc_server_java [main] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+16:09:02.307 webrtc_server_java [main] INFO  DemoApplication - Started DemoApplication in 1.919 seconds (JVM running for 2.31)
+16:09:08.609 webrtc_server_java [http-nio-5000-exec-1] INFO  c.e.demo.filter.HttpServletFilter - 过滤器--------------->127.0.0.1

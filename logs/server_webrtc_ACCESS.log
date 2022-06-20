@@ -1,0 +1,22 @@
+13:27:36.927 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 119984 (E:\doctorgit\ljming_server\server_webrtc\target\classes started by Administrator in E:\doctorgit\ljming_server)
+13:27:36.943 server_webrtc [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+13:27:36.943 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+13:27:39.542 server_webrtc [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+13:27:41.032 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 5.208 seconds (JVM running for 6.833)
+16:45:53.414 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 162444 (E:\doctorgit\ljming_server\server_webrtc\target\classes started by Administrator in E:\doctorgit\ljming_server)
+16:45:53.444 server_webrtc [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+16:45:53.444 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - The following 1 profile is active: "dev"
+16:49:24.080 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 164156 (E:\doctorgit\ljming_server\server_webrtc\target\classes started by Administrator in E:\doctorgit\ljming_server)
+16:49:24.103 server_webrtc [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+16:49:24.103 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - The following 1 profile is active: "dev"
+16:49:26.845 server_webrtc [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+16:49:28.347 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 5.563 seconds (JVM running for 6.703)
+17:31:48.073 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 158524 (E:\doctorgit\ljming_server\server_webrtc\target\classes started by Administrator in E:\doctorgit\ljming_server)
+17:31:48.105 server_webrtc [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+17:31:48.105 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - The following 1 profile is active: "dev"
+17:31:49.902 server_webrtc [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+17:51:14.289 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 157632 (E:\doctorgit\ljming_server\server_webrtc\target\classes started by Administrator in E:\doctorgit\ljming_server)
+17:51:14.289 server_webrtc [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+17:51:14.289 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - The following 1 profile is active: "dev"
+17:51:15.850 server_webrtc [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+17:51:16.973 server_webrtc [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 3.446 seconds (JVM running for 4.296)

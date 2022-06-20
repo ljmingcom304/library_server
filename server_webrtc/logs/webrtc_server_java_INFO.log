@@ -1,0 +1,171 @@
+15:22:32.542 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 72592 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:22:32.651 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:22:32.651 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:22:35.729 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:23:09.289 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 69184 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:23:09.289 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:23:09.289 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:23:11.414 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:23:12.555 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 3.937 seconds (JVM running for 4.69)
+15:23:54.258 webrtc_server_java [http-nio-5000-exec-2] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:23:54.807 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:23:54.844 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:23:54.876 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:23:55.061 webrtc_server_java [http-nio-5000-exec-3] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:27:21.826 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 72424 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:27:21.836 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:27:21.836 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:27:23.245 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:27:23.993 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.725 seconds (JVM running for 3.308)
+15:27:32.991 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:27:33.223 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE app = ? 
+15:27:33.238 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:28:22.874 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 61340 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:28:22.874 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:28:22.874 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:28:24.609 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:28:25.280 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.876 seconds (JVM running for 3.443)
+15:28:34.098 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:28:34.314 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE app = ? 
+15:28:34.345 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:28:45.453 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 72340 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:28:45.455 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:28:45.455 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:28:46.988 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:28:47.658 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.776 seconds (JVM running for 3.371)
+15:28:51.872 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:28:52.073 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE app = ? 
+15:28:52.088 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:29:29.231 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 72584 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:29:29.241 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:29:29.241 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:29:30.646 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:29:31.386 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.751 seconds (JVM running for 3.385)
+15:29:34.674 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:29:34.890 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:29:34.896 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:29:34.928 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:29:34.959 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==>  Preparing: INSERT INTO sys_user_info ( user_id, phone, name ) ( ?, ?, ? ) 
+15:29:34.959 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==> Parameters: 3b1b34bbb89230cfaeb1c1f2f53d47a7(String), 13453179687(String), 3b1b34bb(String)
+15:30:59.533 webrtc_server_java [http-nio-5000-exec-2] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:30:59.549 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:30:59.549 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:30:59.549 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:30:59.549 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==>  Preparing: INSERT INTO sys_user_info ( user_id, phone, name ) ( ?, ?, ? ) 
+15:30:59.564 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==> Parameters: 3b1b34bbb89230cfaeb1c1f2f53d47a7(String), 13453179687(String), 3b1b34bb(String)
+15:31:17.560 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 70636 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:31:17.570 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:31:17.570 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:31:18.959 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:31:19.623 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.625 seconds (JVM running for 3.197)
+15:31:25.731 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:31:25.947 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:31:25.963 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:31:25.979 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:31:25.994 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==>  Preparing: INSERT INTO sys_user_info ( user_id, phone, name ) ( ?, ?, ? ) 
+15:31:26.010 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==> Parameters: 3b1b34bbb89230cfaeb1c1f2f53d47a7(String), 13453179687(String), 3b1b34bb(String)
+15:34:33.872 webrtc_server_java [http-nio-5000-exec-2] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:34:33.887 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:34:33.887 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:34:33.887 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:34:33.887 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==>  Preparing: INSERT INTO sys_user_info ( user_id, phone, name ) ( ?, ?, ? ) 
+15:34:33.887 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==> Parameters: 3b1b34bbb89230cfaeb1c1f2f53d47a7(String), 13453179687(String), 3b1b34bb(String)
+15:34:42.868 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 70264 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:34:42.868 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:34:42.868 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:34:44.312 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:34:44.944 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.562 seconds (JVM running for 3.409)
+15:34:49.225 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:34:49.426 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:34:49.442 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:34:49.473 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:34:49.473 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==>  Preparing: INSERT INTO sys_user_info ( user_id, phone, name ) ( ?, ?, ? ) 
+15:34:49.473 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==> Parameters: 3b1b34bbb89230cfaeb1c1f2f53d47a7(String), 13453179687(String), 3b1b34bb(String)
+15:50:11.007 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 73364 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:50:11.007 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:50:11.007 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:50:12.558 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:50:13.229 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.74 seconds (JVM running for 3.289)
+15:50:18.617 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:50:18.833 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:50:18.849 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:50:18.864 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:50:18.880 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==>  Preparing: INSERT INTO sys_user_info VALUES ( user_id, phone, name ) ( ?, ?, ? ) 
+15:50:18.880 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==> Parameters: 3b1b34bbb89230cfaeb1c1f2f53d47a7(String), 13453179687(String), 3b1b34bb(String)
+15:51:34.718 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 67948 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:51:34.718 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:51:34.718 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:51:36.245 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:51:36.931 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.83 seconds (JVM running for 3.506)
+15:51:39.907 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:51:40.145 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:51:40.161 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:51:40.176 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:51:40.192 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==>  Preparing: INSERT INTO sys_user_info VALUES ( user_id, phone, name ) VALUES ( ?, ?, ? ) 
+15:51:40.192 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==> Parameters: 3b1b34bbb89230cfaeb1c1f2f53d47a7(String), 13453179687(String), 3b1b34bb(String)
+15:52:23.363 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 73008 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:52:23.371 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:52:23.371 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:52:24.990 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:52:25.692 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.932 seconds (JVM running for 3.675)
+15:52:29.619 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:52:29.824 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:52:29.839 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:52:29.861 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:52:29.877 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==>  Preparing: INSERT INTO sys_user_info ( user_id, phone, name ) VALUES ( ?, ?, ? ) 
+15:52:29.877 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==> Parameters: 3b1b34bbb89230cfaeb1c1f2f53d47a7(String), 13453179687(String), 3b1b34bb(String)
+15:52:29.877 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - <==    Updates: 1
+15:54:50.386 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 50292 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:54:50.396 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:54:50.396 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:54:51.937 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:54:52.623 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.81 seconds (JVM running for 3.343)
+15:54:56.420 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:54:56.636 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:54:56.652 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:54:56.674 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:55:00.637 webrtc_server_java [http-nio-5000-exec-2] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:55:00.639 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:55:00.639 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:55:00.639 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:55:50.806 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 67332 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:55:50.806 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:55:50.806 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:55:52.157 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:55:52.881 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.659 seconds (JVM running for 3.243)
+15:55:56.264 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:55:56.480 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:55:56.502 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:55:56.518 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:56:43.580 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 55676 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+15:56:43.588 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+15:56:43.588 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+15:56:44.974 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+15:56:45.657 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.62 seconds (JVM running for 3.171)
+15:56:47.911 webrtc_server_java [http-nio-5000-exec-1] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:56:48.134 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:56:48.149 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:56:48.165 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+15:56:48.181 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==>  Preparing: INSERT INTO sys_user_info ( user_id, phone, name ) VALUES ( ?, ?, ? ) 
+15:56:48.181 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==> Parameters: 3b1b34bbb89230cfaeb1c1f2f53d47a7(String), 13453179687(String), 3b1b34bb(String)
+15:56:48.181 webrtc_server_java [http-nio-5000-exec-1] DEBUG c.l.w.p.dao.UserDao.insertUserBean - <==    Updates: 1
+15:57:03.988 webrtc_server_java [http-nio-5000-exec-2] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+15:57:03.988 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+15:57:03.988 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 13453179687(String)
+15:57:03.988 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 1
+16:39:57.171 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Starting WebRTCApplication on XTZJ-20220307FM with PID 74748 (E:\doctorgit\webrtc_server_java-master\target\classes started by Administrator in E:\doctorgit\webrtc_server_java-master)
+16:39:57.171 webrtc_server_java [main] DEBUG com.ljming.webrtc.WebRTCApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+16:39:57.179 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - The following profiles are active: dev
+16:39:58.522 webrtc_server_java [main] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->httpServletFilter
+16:39:59.177 webrtc_server_java [main] INFO  com.ljming.webrtc.WebRTCApplication - Started WebRTCApplication in 2.567 seconds (JVM running for 3.287)
+16:40:29.205 webrtc_server_java [http-nio-5000-exec-2] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+16:40:29.421 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+16:40:29.437 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 17888819986(String)
+16:40:29.459 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 0
+16:40:29.459 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==>  Preparing: INSERT INTO sys_user_info ( user_id, phone, name ) VALUES ( ?, ?, ? ) 
+16:40:29.459 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.dao.UserDao.insertUserBean - ==> Parameters: e94e49683dec35eebcf8b8a4e81d123b(String), 17888819986(String), e94e4968(String)
+16:40:29.475 webrtc_server_java [http-nio-5000-exec-2] DEBUG c.l.w.p.dao.UserDao.insertUserBean - <==    Updates: 1
+16:42:40.396 webrtc_server_java [http-nio-5000-exec-4] INFO  c.l.webrtc.filter.HttpServletFilter - 过滤器--------------->127.0.0.1
+16:42:40.412 webrtc_server_java [http-nio-5000-exec-4] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==>  Preparing: SELECT * FROM sys_user_info WHERE phone = ? 
+16:42:40.412 webrtc_server_java [http-nio-5000-exec-4] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - ==> Parameters: 17888819986(String)
+16:42:40.412 webrtc_server_java [http-nio-5000-exec-4] DEBUG c.l.w.p.d.U.selectUserBeanByPhone - <==      Total: 1

@@ -1,0 +1,24 @@
+###################  server  ###################
+server:
+  port: 5002
+dubbo:
+  application:
+    #注册中心名称，唯一标识
+    name: ljming-provider
+  registry:
+    #address: zookeeper://172.18.0.2:2181
+    address: zookeeper://192.168.222.128:2181
+  protocol:
+    # 默认名称，勿修改
+    name: dubbo
+    # 暴露的服务端口，不同服务端口要不同
+    port: 20811
+  monitor:
+    protocol: register
+  provider:
+    timeout: 30000
+    retries: 0
+
+
+
+

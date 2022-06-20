@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--约束文件报错时Alt+Enter下载约束文件-->
+<mapper namespace="com.ljming.webrtc.project.dao.UserDao">
+
+    <resultMap id="result_User_Map" type="com.ljming.webrtc.bean.UserBean">
+        <id column="id" property="id"/>
+        <result column="userId" property="user_Id"/>
+        <result column="phone" property="phone"/>
+        <result column="name" property="name"/>
+        <result column="avatar" property="avatar"/>
+    </resultMap>
+
+    <select id="selectUserBeanByUserId" parameterType="java.lang.String" resultMap="result_User_Map">
+        SELECT * FROM sys_user_info WHERE user_Id = #{userId}
+    </select>
+
+    <select id="selectAllUserBeans" resultMap="result_User_Map">
+        SELECT * FROM sys_user_info
+    </select>
+
+    <select id="selectUserBeanByPhone" parameterType="java.lang.String" resultMap="result_User_Map">
+        SELECT * FROM sys_user_info WHERE phone = #{phone}
+    </select>
+
+    <select id="selectFriendBeansByUserId" parameterType="java.lang.String" resultMap="java.util.ArrayList">
+        SELECT * FROM sys_user_info WHERE user_id IN (
+        SELECT friend_id FROM sys_user_relation WHERE user_id = #{userId};
+    </select>
+
+    <insert id="insertUserBean" parameterType="com.ljming.webrtc.bean.UserBean">
+        INSERT INTO sys_user_info
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="userId!=null">user_id,</if>
+            <if test="phone!=null">phone,</if>
+            <if test="name!=null">name,</if>
+            <if test="avatar!=null">avatar,</if>
+        </trim>
+        <trim prefix="VALUES (" suffix=")" suffixOverrides=",">
+            <if test="userId!=null">#{userId},</if>
+            <if test="phone!=null">#{phone},</if>
+            <if test="name!=null">#{name},</if>
+            <if test="avatar!=null">#{avatar},</if>
+        </trim>
+    </insert>
+
+</mapper>

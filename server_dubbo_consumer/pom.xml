@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ljming.parent</groupId>
+		<artifactId>parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../server_parent</relativePath>
+	</parent>
+
+	<groupId>com.ljming.consumer</groupId>
+	<artifactId>consumer</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>consumer</name>
+	<description>Dubbo消费者</description>
+	<packaging>jar</packaging>
+
+	<properties>
+		<ljming.service.version>0.0.1-SNAPSHOT</ljming.service.version>
+		<dubbo.springboot.version>0.2.0</dubbo.springboot.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.ljming.service</groupId>
+			<artifactId>interface</artifactId>
+			<version>${ljming.service.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba.boot</groupId>
+			<artifactId>dubbo-spring-boot-starter</artifactId>
+			<version>${dubbo.springboot.version}</version>
+		</dependency>
+    </dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!--解决No main manifest attribute, in XXX.jar-->
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<mainClass>com.ljming.consumer.ConsumerApplication</mainClass>
+					<layout>ZIP</layout>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

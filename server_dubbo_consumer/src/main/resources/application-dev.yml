@@ -1,0 +1,17 @@
+###################  server  ###################
+server:
+  port: 5003
+dubbo:
+  application:
+    name: ljming-consumer
+  registry:
+    #address: zookeeper://172.18.0.2:2181
+    address: zookeeper://192.168.222.128:2181
+  monitor:
+    protocol: register
+  consumer:
+    timeout: 30000
+    retries: 0
+
+
+

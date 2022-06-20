@@ -1,0 +1,40 @@
+10:07:47.165 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 174684 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:07:47.165 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:07:47.165 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+10:07:49.040 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 2.914 seconds (JVM running for 3.406)
+10:12:45.704 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 174444 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:12:45.704 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:12:45.704 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+10:12:47.459 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 2.586 seconds (JVM running for 3.393)
+10:13:16.591 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 171664 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:13:16.591 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:13:16.591 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+10:13:18.621 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 2.887 seconds (JVM running for 3.468)
+10:17:52.693 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 111120 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:17:52.694 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:17:52.694 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+10:17:54.763 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 2.76 seconds (JVM running for 3.346)
+10:24:16.973 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 175676 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:24:16.975 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:24:16.975 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+10:24:18.879 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 3.009 seconds (JVM running for 4.055)
+10:31:42.284 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 164248 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:31:42.284 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:31:42.284 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+10:31:44.191 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 2.748 seconds (JVM running for 3.33)
+10:37:37.226 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 171584 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:37:37.226 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:37:37.226 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+10:37:38.977 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 2.677 seconds (JVM running for 3.247)
+10:43:01.225 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 173764 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:43:01.225 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:43:01.225 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+10:43:03.092 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 2.552 seconds (JVM running for 3.125)
+10:44:18.532 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 169968 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:44:18.532 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:44:18.532 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+10:44:20.315 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 2.678 seconds (JVM running for 3.225)
+11:16:11.651 server_provider [main] INFO  c.l.provider.ProviderApplication - Starting ProviderApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 177116 (E:\doctorgit\ljming_server\server_dubbo_provider\target\classes started by Administrator in E:\doctorgit\ljming_server)
+11:16:11.651 server_provider [main] DEBUG c.l.provider.ProviderApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+11:16:11.651 server_provider [main] INFO  c.l.provider.ProviderApplication - The following 1 profile is active: "dev"
+11:16:13.854 server_provider [main] INFO  c.l.provider.ProviderApplication - Started ProviderApplication in 2.818 seconds (JVM running for 3.481)

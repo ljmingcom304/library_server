@@ -1,0 +1,15 @@
+# 获取基础镜像
+FROM java:8
+
+#挂载容器/tmp到host主机上的/var/lib/docker/volumes里面的目录
+VOLUME /tmp
+
+#将当前目录里面的jar文件添加到镜像，以app.jar命名
+ADD *jar app.jar
+
+#执行命令，java -jar /app.jar
+RUN bash -c 'touch /app.jar'
+ENTRYPOINT ["java","-jar","app.jar"]
+
+#打包镜像，默认Dockerfile文件当前目录，末尾点号指当前目录
+# docker build -t hello:v1.0.0 .

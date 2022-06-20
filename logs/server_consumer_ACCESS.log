@@ -1,0 +1,12 @@
+10:34:05.869 server_consumer [main] INFO  c.l.consumer.ConsumerApplication - Starting ConsumerApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 22076 (E:\doctorgit\ljming_server\server_dubbo_consumer\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:34:05.905 server_consumer [main] DEBUG c.l.consumer.ConsumerApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:34:05.905 server_consumer [main] INFO  c.l.consumer.ConsumerApplication - The following 1 profile is active: "dev"
+10:34:25.155 server_consumer [main] INFO  c.l.consumer.ConsumerApplication - Started ConsumerApplication in 20.652 seconds (JVM running for 22.902)
+10:50:36.577 server_consumer [main] INFO  c.l.consumer.ConsumerApplication - Starting ConsumerApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 24908 (E:\doctorgit\ljming_server\server_dubbo_consumer\target\classes started by Administrator in E:\doctorgit\ljming_server)
+10:50:36.578 server_consumer [main] DEBUG c.l.consumer.ConsumerApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+10:50:36.578 server_consumer [main] INFO  c.l.consumer.ConsumerApplication - The following 1 profile is active: "dev"
+10:50:53.787 server_consumer [main] INFO  c.l.consumer.ConsumerApplication - Started ConsumerApplication in 18.141 seconds (JVM running for 19.033)
+11:36:18.255 server_consumer [main] INFO  c.l.consumer.ConsumerApplication - Starting ConsumerApplication using Java 1.8.0_291 on XTZJ-20220307FM with PID 12536 (E:\doctorgit\ljming_server\server_dubbo_consumer\target\classes started by Administrator in E:\doctorgit\ljming_server)
+11:36:18.256 server_consumer [main] DEBUG c.l.consumer.ConsumerApplication - Running with Spring Boot v2.6.5, Spring v5.3.17
+11:36:18.256 server_consumer [main] INFO  c.l.consumer.ConsumerApplication - The following 1 profile is active: "dev"
+11:36:32.298 server_consumer [main] INFO  c.l.consumer.ConsumerApplication - Started ConsumerApplication in 14.954 seconds (JVM running for 15.656)

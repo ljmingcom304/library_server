@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/server_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/server_timer/pom.xml" />
+        <option value="$PROJECT_DIR$/server_mq/pom.xml" />
+        <option value="$PROJECT_DIR$/server_dubbo_service/pom.xml" />
+        <option value="$PROJECT_DIR$/server_dubbo_provider/pom.xml" />
+        <option value="$PROJECT_DIR$/server_dubbo_consumer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

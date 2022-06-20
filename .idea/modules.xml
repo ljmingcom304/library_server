@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/server_dubbo_consumer/consumer.iml" filepath="$PROJECT_DIR$/server_dubbo_consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_file/file.iml" filepath="$PROJECT_DIR$/server_file/file.iml" />
+      <module fileurl="file://E:\doctorgit\ljming_server\.idea\ljming_server.iml" filepath="E:\doctorgit\ljming_server\.idea\ljming_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_dubbo_provider/server_dubbo_provider.iml" filepath="$PROJECT_DIR$/server_dubbo_provider/server_dubbo_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_mq/server_mq.iml" filepath="$PROJECT_DIR$/server_mq/server_mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_parent/server_parent.iml" filepath="$PROJECT_DIR$/server_parent/server_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_dubbo_service/service.iml" filepath="$PROJECT_DIR$/server_dubbo_service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_timer/timer.iml" filepath="$PROJECT_DIR$/server_timer/timer.iml" />
+    </modules>
+  </component>
+</project>

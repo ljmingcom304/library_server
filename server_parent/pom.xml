@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<name>parent</name>
+	<description>项目测试</description>
+	<groupId>com.ljming.parent</groupId>
+
+	<artifactId>parent</artifactId>
+	<packaging>pom</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<modules>
+		<module>../server_file</module>
+		<!--<module>../server_webrtc</module>
+		<module>../server_mq</module>
+		<module>../server_timer</module>
+		<module>../server_dubbo_service</module>
+		<module>../server_dubbo_provider</module>
+		<module>../server_dubbo_consumer</module>-->
+	</modules>
+
+	<!--统一包版本-->
+	<properties>
+		<java.version>1.8</java.version>
+		<maven-source-plugin.version>3.0.1</maven-source-plugin.version>
+		<maven-compiler-plugin.version>3.3</maven-compiler-plugin.version>
+
+		<!--版本依赖设置-->
+		<spring.boot.web>2.6.5</spring.boot.web>
+		<log4j.version>1.7.25</log4j.version>
+		<mysql.version>5.1.41</mysql.version>
+		<druid.version>1.2.8</druid.version>
+		<mybatis.springboot.version>1.3.1</mybatis.springboot.version>
+		<tx.version>5.3.17</tx.version>
+		<commons.lang.version>2.6</commons.lang.version>
+		<commons.io.version>2.5</commons.io.version>
+		<commons.beanutils.version>1.9.3</commons.beanutils.version>
+	</properties>
+	<!--统一包版本-->
+
+	<!--构建SpringBoot项目-->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>${spring.boot.web}</version>
+				<type>pom</type>
+				<scope>import</scope>
+				<exclusions>
+					<!--解决SpringBoot的log与log4j冲突问题-->
+					<exclusion>
+						<groupId>org.springframework.boot</groupId>
+						<artifactId>spring-boot-starter-logging</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<!--构建SpringBoot项目-->
+
+
+	<dependencies>
+		<!--SpringBoot依赖-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
+		<!--SpringBoot依赖-->
+
+		<!--日志-->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>log4j-over-slf4j</artifactId>
+			<version>${log4j.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>${commons.lang.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>${commons.beanutils.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons.io.version}</version>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<!--通过Maven进行编译插件-->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${maven-compiler-plugin.version}</version>
+					<configuration>
+						<source>${java.version}</source>
+						<target>${java.version}</target>
+					</configuration>
+				</plugin>
+				<!-- 通过Maven对源码进行打包 -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-source-plugin</artifactId>
+					<version>${maven-source-plugin.version}</version>
+					<executions>
+						<execution>
+							<id>attach-sources</id>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<!--使用Maven编译打包生成Docker镜像-->
+				<plugin>
+					<groupId>com.spotify</groupId>
+					<artifactId>docker-maven-plugin</artifactId>
+					<version>1.2.2</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+
+	<!--配置Maven私库-->
+	<!--<repositories>
+		<repository>
+			<snapshots>
+				<enabled>true</enabled>
+				<updatePolicy>always</updatePolicy>
+			</snapshots>
+			<id>center</id>
+			<name>mvn-center</name>
+			<url>http://localhost:8081/nexus/content/groups/public/</url>
+		</repository>
+	</repositories>
+
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name> Nexus Release Repository </name>
+			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name> Nexus Snapshot Repository </name>
+			<url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>-->
+	<!--配置Maven私库-->
+
+</project>

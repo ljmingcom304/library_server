@@ -1,0 +1,16 @@
+###################  server  ###################
+server:
+  port: 5000
+xxl:
+  job:
+    admin:
+      addresses: http://localhost:8081/xxl-job-admin
+    executor:
+      appname: server
+      ip:
+      port: 9999
+      logpath: /logs/jobhandler/
+      logretentiondays: -1
+    accessToken:
+
+

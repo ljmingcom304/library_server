@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="false" scan="true" scanPeriod="1 seconds">
+
+    <property name="log.path" value="./logs"/>
+    <property name="log.filename" value="server_webrtc"/>
+    <contextName>${log.filename}</contextName>
+
+    <appender name="ROLLINGFILE_APPENDER_ACCESS" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.path}/${log.filename}_ACCESS.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!--每天一归档-->
+            <fileNamePattern>${log.path}/${log.filename}_ACCESS-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!--单个日志文件最多 100MB, 60天的日志周期，最大不能超过20GB-->
+            <maxFileSize>100MB</maxFileSize>
+            <maxHistory>60</maxHistory>
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>NEUTRAL</onMismatch>
+        </filter>
+    </appender>
+
+    <appender name="ROLLINGFILE_APPENDER_INFO" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.path}/${log.filename}_INFO.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!--每天一归档-->
+            <fileNamePattern>${log.path}/${log.filename}_INFO-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!--单个日志文件最多 100MB, 60天的日志周期，最大不能超过20GB-->
+            <maxFileSize>100MB</maxFileSize>
+            <maxHistory>60</maxHistory>
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>NEUTRAL</onMismatch>
+        </filter>
+    </appender>
+
+    <appender name="ROLLINGFILE_APPENDER_ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${log.path}/${log.filename}_ERROR.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!--每天一归档-->
+            <fileNamePattern>${log.path}/${log.filename}_ERROR-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!--单个日志文件最多 100MB, 60天的日志周期，最大不能超过20GB-->
+            <maxFileSize>100MB</maxFileSize>
+            <maxHistory>60</maxHistory>
+            <totalSizeCap>20GB</totalSizeCap>
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %contextName [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!-- 控制台 appender -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] [%-5level] [%logger] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+    <logger name="com.ljming.webrtc" additivity="true">
+        <level value="DEBUG" />
+        <appender-ref ref="ROLLINGFILE_APPENDER_ACCESS"/>
+        <appender-ref ref="ROLLINGFILE_APPENDER_ERROR"/>
+        <appender-ref ref="ROLLINGFILE_APPENDER_INFO" />
+    </logger>
+
+
+</configuration>

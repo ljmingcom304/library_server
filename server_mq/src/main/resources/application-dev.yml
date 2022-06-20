@@ -1,0 +1,11 @@
+###################  server  ###################
+server:
+  port: 5001
+spring:
+  activemq:
+      broker-url: tcp://127.0.0.1:61616
+      in-memory: true
+      user: admin
+      password: admin
+
+
